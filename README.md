@@ -2,6 +2,10 @@
 
 This package will help you to show success, warning, error and info messages in your react-native application with a beautiful UI.
 
+![downloads](https://img.shields.io/npm/dt/alerts-are-easy.svg)
+[![npm-version](https://img.shields.io/npm/v/alerts-are-easy.svg)](https://www.npmjs.com/package/alerts-are-easy)
+[![github-tag](https://img.shields.io/github/tag/Vyshakhcs1/alerts-are-easy.svg?maxAge=1800)](https://github.com/Vyshakhcs1/alerts-are-easy/)
+
 **Examples**
 
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/sc-1.png)
