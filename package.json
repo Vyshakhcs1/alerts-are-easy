@@ -1,21 +1,25 @@
 {
   "name": "alerts-are-easy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package will help you to show success, warning, error and info messages in your react-native application with a beautiful UI.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyshakhcs1/alerts-are-easy.git"
+  },
   "keywords": [
     "react",
     "react-native",
-    "react-alerts-ui",
-    "react-native-alerts-ui",
+    "react-alerts-are-easy",
+    "react-native-alerts-are-easy",
+    "alerts-are-easy",
     "mobile",
     "ios",
     "android",
-    "ui",
-    "alert"
+    "alerts"
   ],
   "author": "Vyshakh VJ",
   "license": "ISC",
@@ -26,5 +30,6 @@
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.66.0"
-  }
+  },
+  "homepage": "https://github.com/Vyshakhcs1/alerts-are-easy.git#readme"
 }

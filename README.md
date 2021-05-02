@@ -38,6 +38,21 @@ import {SimpleAlert} from 'alerts-are-easy';
 />
 ```
 
+## Props
+
+**<SimpleAlert />**
+| Prop | Description | Value |
+| ------ | ------ |------ |
+| **`position`** | Helps to position your alert |`top`, `center`, `bottom` |
+| **`message `** | The message you want to show | eg: "This is a sample message..." |
+| **`type `** | The type of alert |`success`, `warning`, `error`, `info` |
+| **`showIcon `** | Helps to show left icon |`true`, `false` |
+
+## Under way
+
+- [ ] Detailed Alerts
+- [ ] Large Alerts
+
 ## License
 
 ISC
