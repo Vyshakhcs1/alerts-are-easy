@@ -1,0 +1,30 @@
+{
+  "name": "alerts-are-easy",
+  "version": "1.0.0",
+  "description": "This package will help you to show success, warning, error and info messages in your react-native application with a beautiful UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-alerts-ui",
+    "react-native-alerts-ui",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "alert"
+  ],
+  "author": "Vyshakh VJ",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.60.0",
+    "react-native-vector-icons": "^6.1.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.66.0"
+  }
+}
