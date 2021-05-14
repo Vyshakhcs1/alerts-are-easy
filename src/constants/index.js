@@ -26,6 +26,9 @@ import {
   AlertStyleMap,
   PositionStyleMap,
   IconsMap,
+  gray_dark,
+  gray_light,
+  IconsColorMap,
 } from './colors';
 import {Icons} from './icons';
 export {
@@ -64,4 +67,7 @@ export {
   AlertStyleMap,
   PositionStyleMap,
   IconsMap,
+  gray_dark,
+  gray_light,
+  IconsColorMap,
 };

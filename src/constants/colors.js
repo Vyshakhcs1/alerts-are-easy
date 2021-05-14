@@ -14,6 +14,8 @@ export const success_dark = '#75D00F';
 export const warning_dark = '#FFB70A';
 export const error_dark = '#f22e2e';
 export const info_dark = '#36C4FC';
+export const gray_dark = '#738CAB';
+export const gray_light = '#d8d8d8';
 
 export const success_border = '#7cf2ad';
 export const warning_border = '#7cf2ad';
@@ -52,4 +54,11 @@ export const IconsMap = {
   [WARNING]: Icons.Feather.warning,
   [ERROR]: Icons.Feather.error,
   [INFO]: Icons.Feather.info,
+};
+
+export const IconsColorMap = {
+  [SUCCESS]: success_dark,
+  [WARNING]: warning_dark,
+  [ERROR]: error_dark,
+  [INFO]: info_dark,
 };

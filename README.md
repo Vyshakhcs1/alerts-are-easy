@@ -6,7 +6,7 @@ This package will help you to show success, warning, error and info messages in 
 [![npm-version](https://img.shields.io/npm/v/alerts-are-easy.svg)](https://www.npmjs.com/package/alerts-are-easy)
 [![github-tag](https://img.shields.io/github/tag/Vyshakhcs1/alerts-are-easy.svg?maxAge=1800)](https://github.com/Vyshakhcs1/alerts-are-easy/)
 
-**Examples**
+**SimpleAlert**
 
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/sc-1.png)
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/wr-1.png)
@@ -17,6 +17,13 @@ This package will help you to show success, warning, error and info messages in 
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/wr-2.png)
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/er-2.png)
 ![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/inf-2.png)
+
+**LargeAlert**
+
+![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/lsc.png)
+![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/lwr.png)
+![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/ler.png)
+![N|Solid](https://raw.githubusercontent.com/Vyshakhcs1/alerts-are-easy/main/.github/images/linf.png)
 
 ## Installation
 
@@ -42,9 +49,23 @@ import {SimpleAlert} from 'alerts-are-easy';
 />
 ```
 
+```js
+import {LargeAlert} from 'alerts-are-easy';
+```
+
+```js
+<LargeAlert
+  title="Successful"
+  message="You have successfully registered."
+  actionText="Go to login screen"
+  type="success"
+  actionTriggered={this.actionTriggered}
+/>
+```
+
 ## Props
 
-** SimpleAlert **
+**SimpleAlert**
 | Prop | Description | Value |
 | ------ | ------ |------ |
 | **`position`** | Helps to position your alert |`top`, `center`, `bottom` |
@@ -52,10 +73,18 @@ import {SimpleAlert} from 'alerts-are-easy';
 | **`type `** | The type of alert |`success`, `warning`, `error`, `info` |
 | **`showIcon `** | Helps to show left icon |`true`, `false` |
 
+**LargeAlert**
+| Prop | Description | Value |
+| ------ | ------ |------ |
+| **`title `** | The title you want to show | eg: "Successful" |
+| **`message `** | The message you want to show | eg: "You have successfully registered." |
+| **`actionText `** | The text you want to show on button | eg: "Go to login screen" |
+| **`type `** | The type of alert |`success`, `warning`, `error`, `info` |
+| **`actionTriggered `** | The button click action | You can define the function and pass it in this prop. |
+
 ## Under way
 
 - [ ] Detailed Alerts
-- [ ] Large Alerts
 
 ## License
 

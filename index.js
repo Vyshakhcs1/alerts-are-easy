@@ -1,2 +1,3 @@
 import SimpleAlert from './src/Alerts/SimpleAlert/SimpleAlert';
-export {SimpleAlert};
+import LargeAlert from './src/Alerts/LargeAlert/LargeAlert';
+export {SimpleAlert, LargeAlert};
